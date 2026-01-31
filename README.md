@@ -1,16 +1,40 @@
-# React + Vite
+# Dynamic Product Filter (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates dynamic filtering of product cards based on category selection from a dropdown menu. It showcases React state management, array manipulation, and responsive layout design using CSS Grid.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Aim
+To create a dynamic product filter that sorts items based on dropdown selection.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✅ Objectives
+- Implement filterable product data using arrays
+- Create an interactive dropdown UI for category selection
+- Display responsive product cards using CSS Grid
+- Add smooth layout transitions and hover animations
+- Demonstrate effective use of React state (useState)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+- React.js (useState Hook)
+- JavaScript (ES6)
+- HTML5
+- CSS3 (Grid, transitions, responsive design)
+- Vite
+
+---
+
+## 💻 How the Program Works
+
+A predefined list of product objects is stored in an array. Based on the category selected from the dropdown, the array is filtered dynamically using JavaScript's `.filter()` method. React re-renders the UI automatically as the state updates, displaying only the matching product cards.
+
+---
+
+## 💻 How to Run the Project
+
+```bash
+npm install
+npm run dev
